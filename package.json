@@ -1,0 +1,22 @@
+{
+  "name": "Sandwi.js",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "async": "0.1.x",
+    "requirejs": "2.0.x"
+  },
+  "devDependencies": {
+    "mocha-phantomjs": "git://github.com/metaskills/mocha-phantomjs.git",
+    "grunt": "~0.3.17",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-nodeunit": "~0.1.0",
+    "should": "*",
+    "mocha": "*",
+    "jsdom": "0.2.x"
+  }
+}
