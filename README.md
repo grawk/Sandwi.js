@@ -13,12 +13,16 @@ Install
 =======
 1. Clone this repo
 2. cd Sandwi.js
-3. npm install
+3. npm install .
 
 Running tests
 =============
 - "grunt test" or "npm test"
 - Use file protocol to launch mocha-runner/main.html in your browser
+
+Running app
+===========
+- "node ." : however there really isn't anything interesting about running the app
 
 Howzitwork
 ==========
