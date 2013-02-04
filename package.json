@@ -20,6 +20,6 @@
     "jsdom": "0.2.x"
   },
   "scripts" : {
-    "test" : "mocha-phantomjs mocha-runner/test.html"
+    "test" : "grunt test"
   }
 }

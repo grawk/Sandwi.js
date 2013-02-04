@@ -8,4 +8,4 @@ before_script:
 
 after_script:
 # Run lint on every commit
-  - grunt 
+# grunt test (run by npm test) will lint

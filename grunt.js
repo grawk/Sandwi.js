@@ -15,9 +15,9 @@ module.exports = function(grunt) {
 
 	
 	// Default task.
-	grunt.registerTask('default', 'lint');
+	grunt.registerTask('test', ['lint','mochaphantom']);
 
-	grunt.registerTask('test', 'run mocha-phantomjs', function() {
+	grunt.registerTask('mochaphantom', 'run mocha-phantomjs', function() {
 		var done = this.async();
 		require('child_process').exec('mocha-phantomjs ./mocha-runner/test.html', function(err, stdout) {
 			grunt.log.write(stdout);
