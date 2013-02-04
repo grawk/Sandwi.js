@@ -1,7 +1,7 @@
 define([], function() {
 	'use strict';
 	var config = {
-		baseUrl: "./js",
+		//baseUrl: "./js",
 		paths: {
 			"jquery": "lib/jquery-1.8.3",
 			"dust": "lib/dust-core-1.0.0",
