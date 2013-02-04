@@ -9,7 +9,7 @@ define([ 'jquery'], function ($) {
 	};
 	
 	IndexView.prototype.init = function (config) {
-		console.log("IndexView init");
+		window.console.log("IndexView init");
 	};
 	return new IndexView();
 });
